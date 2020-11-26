@@ -1,4 +1,4 @@
-from .arg_parsers import DefaultArgParser, CustomDetectorArgParser, FaceDetectorArgParser
+from .arg_parsers import DefaultArgParser, CustomDetectorArgParser, FaceDetectorArgParser, ReidArgParser
 from .arg_converters import (BaseArgConverter, MMActionArgsConverter, MMDetectionArgsConverter,
                              MMDetectionWiderArgsConverter)
 from .trainers import BaseTrainer, MMActionTrainer, MMDetectionTrainer
@@ -17,6 +17,7 @@ __all__ = [
     'DefaultArgParser',
     'CustomDetectorArgParser',
     'FaceDetectorArgParser',
+    'ReidArgParser',
     'BaseArgConverter',
     'MMActionArgsConverter',
     'MMDetectionArgsConverter',
